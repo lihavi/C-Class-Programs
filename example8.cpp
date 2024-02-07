@@ -8,12 +8,15 @@ int main(){
     cin>>num1>>num2;
   if(num1>100)
      if (num2>100)
-        cout<<"great"<<endl;
+        cout<<"num1 and num2 are above 100"<<endl;
             else
-            cout<<"check only num1"<<endl;
+        cout<<"num2 is not above 100"<<endl;
     
         else
-        cout<<"not ok"<<endl;
+           if(num2<100)
+           cout<<"both num1 and num2 are less than 100"<<endl;
+           else
+           cout<<"num1 is less than 100 but num2 is not"<<endl;
 
 
     /* nt product = num1*num2;
